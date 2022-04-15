@@ -1,30 +1,26 @@
-import stylde from 'styled-components'
+import styled from "styled-components"
 
-export const BTN = stylde.div`
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
-    button {
-        width: 6.5625rem;
-        height: 3.125rem;
-        border:2px solid var(--accent-color);
-        padding:20px 0px;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        color: var(--accent-color);
-        background: #000;
-        font-weight:bold;
-        position:relative;
-        transition:all ease-in-out .3s;
-        -webkit-box-shadow: -1px -1px 4px 2px rgba(1,255,176,1);
-        -moz-box-shadow: -1px -1px 4px 2px rgba(1,255,176,1);
-        box-shadow: -1px -1px 4px 2px rgba(1,255,176,1);
+export const ButtonContainer = styled.button `
 
-        font-size: 1.125rem;
-        font-weight: 600;
-        font-style: normal;
-    }
+    width: 6.5625rem;
+    height: 3.125rem;
+    border:2px solid var(--accent-color);
+    padding:20px 0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: var(--accent-color);
+    background: #000;
+    font-weight:bold;
+    position:relative;
+    transition:all ease-in-out .3s;
+    -webkit-box-shadow: -1px -1px 4px 2px rgba(1,255,176,1);
+    -moz-box-shadow: -1px -1px 4px 2px rgba(1,255,176,1);
+    box-shadow: -1px -1px 4px 2px rgba(1,255,176,1);
+
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-style: normal;
     &:hover{
         cursor:pointer;
         background:#000;

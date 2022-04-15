@@ -7,13 +7,11 @@ import {
 const Button = (props) => {
   return (
     <ButtonContainer>
-      <button>
         {props.children}
         <span></span>
         <span></span>
         <span></span>
         <span></span>
-      </button>
     </ButtonContainer>
   )
 }

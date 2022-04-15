@@ -11,7 +11,7 @@ import {
 } from './NavbarEl'
 
 import { FaBars } from 'react-icons/fa'
-import HeaderBTN from '../Button/HeaderBTN';
+import HeaderBTN from '../Buttons/HeaderBTN';
 
 function Navbar({toggle}) {
 

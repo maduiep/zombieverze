@@ -7,7 +7,7 @@ import {
     IconHolder
 } from './HeroSectionEl'
 
-import Button from '../Button/Button';
+import Button from '../Buttons/Button';
 import Icons from '../Icons/Icons';
 
 
@@ -24,7 +24,7 @@ const HeroSections = () => {
           <Button>MINT</Button>
 
           <IconHolder>
-            <Icons />
+          <Icons />
           </IconHolder>
         </TextContainer>
     </HeroContainer>

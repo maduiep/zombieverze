@@ -8,6 +8,7 @@ import {
 } from './MainPageEl'
 import Footer from '../components/Footer/Footer'
 import About from '../components/About/About'
+import Roadmap from '../components/Roadmap/Roadmap'
 
 const MainPage = () => {
   return (
@@ -15,6 +16,7 @@ const MainPage = () => {
         <Header />
         <HeroSections />
         <About />
+        <Roadmap />
         <Faq />
         <Footer />
     </MainPageContainer>

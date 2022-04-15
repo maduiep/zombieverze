@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div `
     width: 100%;
-    height: 50.625rem;
+    height: 45.625rem;
     background-image: url('/images/ZombiePirate.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
 `
 
 export const TextContainer = styled.div `
@@ -18,7 +20,7 @@ export const TextContainer = styled.div `
     h1 {
         font-size: 4rem;
         font-weight: 400;
-        padding-top: 22rem;
+        padding-top: 18rem;
         font-family: 'Days One', sans-serif;
        
         span {
@@ -161,5 +163,5 @@ export const Icon = styled.div `
 `
 
 export const IconHolder = styled.div `
-    margin-top: 9.65rem;
+    margin-top: 10.625rem;
 `

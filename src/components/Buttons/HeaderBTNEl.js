@@ -1,8 +1,9 @@
-import styled from "styled-components"
+import stylde from 'styled-components'
 
-export const ButtonContainer = styled.div `
-
-    button {
+export const BTN = stylde.button `
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
         width: 6.5625rem;
         height: 3.125rem;
         border:2px solid var(--accent-color);
@@ -22,7 +23,6 @@ export const ButtonContainer = styled.div `
         font-size: 1.125rem;
         font-weight: 600;
         font-style: normal;
-    }
     &:hover{
         cursor:pointer;
         background:#000;

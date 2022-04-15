@@ -28,7 +28,6 @@ const Footer = () => {
                             src="./images/Logo.svg"
                             alt="img" 
                         />
-                    
                     <NavMenu data-aos="fade-in">
                         <NavItem>
                                 <NavLinks>
