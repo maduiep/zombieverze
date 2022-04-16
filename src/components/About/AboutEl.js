@@ -52,14 +52,14 @@ export const AboutTextContent = styled.div `
         order:1;
     }
     h5 {
-        font-size:1.25rem;
+        font-size: 1rem;
         font-weight: 400;
         padding-bottom: 1rem;
         /* @media screen and (max-width:960px)  {
             order: 2;
         } */
         @media screen and (max-width:1300px) {
-            font-size:1rem;
+            font-size: 1rem;
             font-weight: 300;
             padding-bottom: 0.8rem;
 
@@ -75,7 +75,7 @@ export const AboutTextContent = styled.div `
 
     h2 {
         line-height: 61px;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 400;
         padding-bottom: 0.8125rem;
 
@@ -100,9 +100,9 @@ export const AboutTextContent = styled.div `
     }
 
     p {
-        font-size: 1.125rem;
+        font-size: 1rem;
         text-transform: uppercase;
-        line-height: 27px;
+        line-height: 25px;
         padding-bottom: 2rem;
 
         @media screen and (max-width:1300px) {

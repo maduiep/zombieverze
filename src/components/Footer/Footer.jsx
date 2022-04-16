@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Icons from '../Icons/Icons';
 import { Nav, NavbarContainer, Img, NavMenu, NavLinks, NavItem } from '../Navbar/NavbarEl'
@@ -68,7 +69,9 @@ const Footer = () => {
         </NavHolder>
 
         <TermsCopy>
+           <Link to="/TermsAndConditions">
             <p style={{cursor: 'pointer'}}>Terms  & Conditions</p>
+           </Link>
             <p>Copyright &copy; 2022 Zombieverze. All rights reserved.</p>
         </TermsCopy>
     </FooterContainer>

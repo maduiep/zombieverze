@@ -7,7 +7,6 @@ import {
 const TermsAndConditions = () => {
   return (
     <TermsContainer>
-        
     </TermsContainer>
   )
 }
