@@ -59,7 +59,7 @@ export const SidebarLink = styled(LinkScroll)`
     transition: 0.2s ease-in-out;
     text-decoration: none;
     color: var(--white-color);
-    font-family: 'Days One, 'sans-serif';
+    font-family: 'Days One, sans-serif';
     cursor: pointer;
 
     &:hover {

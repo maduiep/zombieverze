@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TeamContainer = styled.div `
     width: 100%;
-    height: 98.855625rem;
+    min-height: 98.855625rem;
     background-image: url('/images/Team.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,6 +11,12 @@ export const TeamContainer = styled.div `
 `
 
 export const TeamWrapper = styled.div `
+    @media screen and (max-width: 620px) {
+       width:90%;
+       margin: 0px auto;
+    }
+    position: relative;
+
 
 `
 
@@ -60,6 +66,14 @@ export const TeamText = styled.div `
             padding-bottom: 1.5rem;
         }
     }
+    img{
+        position: absolute;
+        top:13%;
+        left:-2%;
+        @media screen and (max-width: 620px) {
+            position: relative;
+        }
+    }
 `
 
 export const TeamProfile = styled.div `
@@ -101,6 +115,11 @@ export const TeamContents = styled.div `
     justify-content: space-evenly;
 
     color: var(--white-color); 
+    @media screen and (max-width: 620px) {
+        flex-direction: column;
+        text-align: center;
+    }
+    
 `
 
 
@@ -116,6 +135,9 @@ export const TeamMembersWrapper = styled.div `
     align-items: center;
     justify-content: space-evenly;
     margin-top: 5rem;
+    @media screen and (max-width: 620px) {
+        flex-direction: column;
+    }
 
     
 
@@ -127,6 +149,9 @@ export const TeamMembers = styled.div `
     align-items: center;
     flex-direction: column;
     color: var(--white-color);
+    @media screen and (max-width: 620px) {
+        margin-bottom: 5rem;
+    }
     h4 {
         font-size: 1.5rem;
         

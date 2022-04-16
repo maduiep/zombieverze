@@ -27,6 +27,8 @@ export const GlobalStyle = createGlobalStyle `
         font-family: 'Days One', sans-serif;
         font-family: 'Blanka', sans-serif;
         overflow-x: hidden;
+        margin:0;
+        padding:0;
     }
 `;
 
