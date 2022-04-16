@@ -2,12 +2,13 @@ import styled from 'styled-components'
 
 export const AboutContainer = styled.div `
     width: 100%;
-    height: 50.625rem;
+    min-height: 50.625rem;
     background-image: url('/images/About.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: center;
+    padding-bottom: 20px;
 `
 
 export const AboutWrapper = styled.div `
@@ -18,6 +19,9 @@ export const ContentWrapper = styled.div `
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 620px) {
+        flex-direction: column;
+    }
 `
 
 export const ImageWrapper = styled.div `
@@ -26,7 +30,9 @@ export const ImageWrapper = styled.div `
         
     }
 
-    @media screen and (max-width:960px)  {}
+    /* @media screen and (max-width:960px)  {
+        order: 1;
+    } */
 `
 
 export const AboutTextContent = styled.div `
@@ -34,12 +40,24 @@ export const AboutTextContent = styled.div `
     color: var(--white-color);
     font-family: 'Days One', 'sans-serif';
     position: relative;
-
+    @media screen and (max-width:1300px) {
+        text-align: center;
+    }
+    @media screen and (max-width: 620px) {
+        margin-top: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        order:1;
+    }
     h5 {
         font-size:1.25rem;
         font-weight: 400;
         padding-bottom: 1rem;
-
+        /* @media screen and (max-width:960px)  {
+            order: 2;
+        } */
         @media screen and (max-width:1300px) {
             font-size:1rem;
             font-weight: 300;
@@ -76,6 +94,9 @@ export const AboutTextContent = styled.div `
             padding-bottom: 0.8rem;
 
         }
+        /* @media screen and (max-width:960px)  {
+            order: 3;
+        } */
     }
 
     p {
@@ -104,14 +125,16 @@ export const AboutTextContent = styled.div `
             padding-bottom: 1.5rem;
             line-height: 23px;
         }
-
+        /* @media screen and (max-width:960px)  {
+            order: 4;
+        } */
     }
 `
 export const AboutImage = styled.div `
     margin-top: 12.9375rem;
     width: 30.566875rem;
     height: 30.455625rem;
-
+    
     img {
         width: inherit;
         height: inherit;
@@ -129,5 +152,11 @@ export const AboutImage = styled.div `
         margin-top: 12.9375rem;
         width: 22.566875rem;
         height: 22.455625rem;
+    }
+    @media screen and (max-width: 620px) {
+        margin-top: 0rem;
+        width: 100%;
+        height: 320.33203125px;
+        order: 2;
     }
 `

@@ -4,4 +4,5 @@ export const MainPageContainer = styled.div `
     width: 100%;
     height: 100%;
     background: var(--primary-color);
+    
 `

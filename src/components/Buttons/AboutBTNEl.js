@@ -20,6 +20,10 @@ export const AboutBTNContainer = styled.button `
     font-size: 1.125rem;
     font-weight: 600;
     font-style: normal;
+    @media screen and (max-width: 620px) {
+        margin: 3rem 0rem;
+        order:3;
+    }
     &:hover{
         cursor:pointer;
         background:#000;
@@ -86,4 +90,5 @@ export const AboutBTNContainer = styled.button `
         right:-7px;
         transition:all ease-in-out .3s;
     }
+
 `

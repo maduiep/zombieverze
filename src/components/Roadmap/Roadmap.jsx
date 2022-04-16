@@ -34,64 +34,64 @@ const Roadmap = () => {
             <img src="/images/Roadmap.svg" alt="" />
           </ImageWrapper>
           <RoadmapHolder>
-          <RoadmapContents>
-            <RoadmapCardHolder>
-              <RoundCard>
-                <h3>10%</h3>
-              </RoundCard>
+            <RoadmapContents>
+              <RoadmapCardHolder>
+                <RoundCard>
+                  <h3>10%</h3>
+                </RoundCard>
+                <CardHolder>
+                  
+                  <Card>
+                    <h2>Launch</h2>
+                    <p>
+                      Launch the NFT, Initial <br /> Mint has been officially <br />paused and will<br /> relaunch soon
+                    </p>
+                  </Card>
+                </CardHolder>
+              </RoadmapCardHolder>
+              <RoadmapCardHolder>
+                <RoundCard>
+                  <h3>50%</h3>
+                </RoundCard>
               <CardHolder>
-                
-                <Card>
-                  <h2>Launch</h2>
-                  <p>
-                    Launch the NFT, Initial <br /> Mint has been officially <br />paused and will<br /> relaunch soon
-                  </p>
-                </Card>
+              
+                  <Card>
+                    <h2>AIrdrop Token</h2>
+                    <p>
+                      Airdrop Zene Token to the <br /> holders of zombie NFT.
+                    </p>
+                  </Card>
               </CardHolder>
-            </RoadmapCardHolder>
-            <RoadmapCardHolder>
-              <RoundCard>
-                <h3>50%</h3>
-              </RoundCard>
-             <CardHolder>
-             
+              </RoadmapCardHolder>
+              <RoadmapCardHolder>
+                <RoundCard>
+                  <h3>85%</h3>
+                </RoundCard>
+                <CardHolder>
+
                 <Card>
-                  <h2>AIrdrop Token</h2>
+                  <h2>Launch metaverse</h2>
                   <p>
                     Airdrop Zene Token to the <br /> holders of zombie NFT.
                   </p>
                 </Card>
-             </CardHolder>
-            </RoadmapCardHolder>
-            <RoadmapCardHolder>
-              <RoundCard>
-                <h3>85%</h3>
-              </RoundCard>
-              <CardHolder>
-
-              <Card>
-                <h2>Launch metaverse</h2>
-                <p>
-                  Airdrop Zene Token to the <br /> holders of zombie NFT.
-                </p>
-              </Card>
-              </CardHolder>
-            </RoadmapCardHolder>
-            <RoadmapCardHolder>
-              <RoundCard>
-                <h3>100%</h3>
-              </RoundCard>
-              <CardHolder>
-              
-              <Card>
-                <h2>Launch metaverse</h2>
-                <p>
-                Start the journey of <br /> joining the metaverse <br /> and purchasing a land <br /> there for future projects.
-                </p>
-              </Card>
-              </CardHolder>
-            </RoadmapCardHolder>
-          </RoadmapContents>
+                </CardHolder>
+              </RoadmapCardHolder>
+              <RoadmapCardHolder>
+                <RoundCard>
+                  <h3>100%</h3>
+                </RoundCard>
+                <CardHolder>
+                
+                <Card>
+                  <h2>Launch metaverse</h2>
+                  <p>
+                  Start the journey of <br /> joining the metaverse <br /> and purchasing a land <br /> there for future projects.
+                  </p>
+                </Card>
+                </CardHolder>
+              </RoadmapCardHolder>
+            </RoadmapContents>
           </RoadmapHolder>
           <RoadmapHolder2>
             <RoadmapContents>

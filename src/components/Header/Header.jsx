@@ -13,8 +13,8 @@ export const Header = () => {
   }
 
   return (
-    <HeaderContainer isOpen={isOpen} toggle={toggle}>
-        <Navbar toggle={toggle}/>
+    <HeaderContainer isOpen={false} toggle={false}>
+        <Navbar toggle={false}/>
     </HeaderContainer>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { ImageWrapper } from '../Roadmap/RoadmapEl'
 
 import {
     TeamContainer,
@@ -18,6 +19,7 @@ const Team = () => {
         <TeamWrapper>
           <TeamContents>
             <TeamText>
+              <img src="/images/our team.png" alt="" style={{width:'300px',}}/>
               <h5>TEAM</h5>
               <h2>Meet Zombieverse <br /> Club Team</h2>
               <p>
