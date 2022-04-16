@@ -18,10 +18,19 @@ export const TeamText = styled.div `
     margin-top: 12.9375rem; 
     color: var(--white-color);
     font-family: 'Days One', 'sans-serif';
+    @media screen and (max-width:1000px) {
+        margin-top: 12.9375rem;
+    }
     h5 {
         font-size:1.25rem;
         font-weight: 400;
         padding-bottom: 1rem;
+
+        @media screen and (max-width:1000px) {
+            font-size: 1rem;
+            font-weight: 300;
+            padding-bottom: 0.8rem;
+        }
     }
 
     h2 {
@@ -29,6 +38,13 @@ export const TeamText = styled.div `
         font-size: 2.5rem;
         font-weight: 400;
         padding-bottom: 0.8125rem;
+
+        @media screen and (max-width:1000px) {
+            line-height: 51px;
+            font-size: 2rem;
+            font-weight: 300;
+            padding-bottom: 0.8rem;
+        }
     }
 
     p {
@@ -36,6 +52,13 @@ export const TeamText = styled.div `
         text-transform: uppercase;
         line-height: 27px;
         padding-bottom: 2rem;
+
+        @media screen and (max-width:1000px) {
+            font-size: 1rem;
+            text-transform: uppercase;
+            line-height: 22px;
+            padding-bottom: 1.5rem;
+        }
     }
 `
 
@@ -93,6 +116,9 @@ export const TeamMembersWrapper = styled.div `
     align-items: center;
     justify-content: space-evenly;
     margin-top: 5rem;
+
+    
+
 `
 
 export const TeamMembers = styled.div `
@@ -103,13 +129,24 @@ export const TeamMembers = styled.div `
     color: var(--white-color);
     h4 {
         font-size: 1.5rem;
+        
+            @media screen and (max-width:1060px) {
+            font-size: 1rem;
+        }
     }
 
     h2 {
         font-size: 1rem;
+
+        @media screen and (max-width:1060px) {
+            font-size: 0.8rem;
+        }
     }
 
     img {
         padding-bottom: 2.6225rem;
+        @media screen and (max-width:1060px) {
+            padding-bottom: 2rem;
+        }
     }
 `

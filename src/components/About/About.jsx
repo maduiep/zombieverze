@@ -28,9 +28,7 @@ const About = () => {
                     <AboutBTN>Pick your zombie</AboutBTN>
                 </AboutTextContent>
                 <AboutImage>
-                    <video style={{borderRadius: '1rem'}} width="100%" height="100%" autoplay controls>
-                        <source src="/images/play.mp4" type="video/mp4"/>
-                    </video> 
+                    <img src="/images/play.gif" alt=""/>
                 </AboutImage>
             </ContentWrapper>
         </AboutWrapper>

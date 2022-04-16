@@ -112,6 +112,12 @@ export const AboutImage = styled.div `
     width: 30.566875rem;
     height: 30.455625rem;
 
+    img {
+        width: inherit;
+        height: inherit;
+        border-radius: 1rem;
+    }
+
     @media screen and (max-width:1300px) {
         margin-top: 12.9375rem;
         width: 25.566875rem;
@@ -123,6 +129,5 @@ export const AboutImage = styled.div `
         margin-top: 12.9375rem;
         width: 22.566875rem;
         height: 22.455625rem;
-
     }
 `

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Header } from '../components/Header/Header'
 import HeroSections from '../components/HeroSection/HeroSections'
 import Faq from '../components/Faq/Faq'
@@ -10,11 +10,13 @@ import Footer from '../components/Footer/Footer'
 import About from '../components/About/About'
 import Roadmap from '../components/Roadmap/Roadmap'
 import Team from '../components/Team/Team'
+import Sidebar from '../components/Sidebar/Sidebar'
 
 const MainPage = () => {
   return (
     <MainPageContainer>
-        <Header />
+        <Sidebar/>
+        <Header/>
         <HeroSections />
         <About />
         <Roadmap />
