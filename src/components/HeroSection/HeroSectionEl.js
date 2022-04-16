@@ -40,6 +40,7 @@ export const TextContainer = styled.div `
 
     @media screen and (max-width:960px) {
         h1 {
+        text-align: center;
         font-size: 2.25rem;
         font-weight: 400;
         padding-top: 25rem;

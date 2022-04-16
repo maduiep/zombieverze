@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle `
     @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
     @import url('http://fonts.cdnfonts.com/css/blanka');
     @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
     
     body{
         background: var(--primary-color);

@@ -9,6 +9,7 @@ import {
 import Footer from '../components/Footer/Footer'
 import About from '../components/About/About'
 import Roadmap from '../components/Roadmap/Roadmap'
+import Team from '../components/Team/Team'
 
 const MainPage = () => {
   return (
@@ -17,6 +18,7 @@ const MainPage = () => {
         <HeroSections />
         <About />
         <Roadmap />
+        <Team />
         <Faq />
         <Footer />
     </MainPageContainer>

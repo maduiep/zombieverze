@@ -30,12 +30,11 @@ function Faq() {
 
     return (
         <FaqContainer id="faq"  data-aos="fade-down">
-            
             <FaqWrapper>
-            <ImageWrapper>
-                <img src="/images/faq.svg" alt="" />
-            </ImageWrapper>
-            <FaqText>FAQ</FaqText>
+                <ImageWrapper>
+                    <img src="/images/faq.svg" alt="" />
+                </ImageWrapper>
+                <FaqText>FAQ</FaqText>
                 <FaqAccordion>
                     {FaqData.map((item, i) => (
                         <FaqItem data-aos="zoom-in">
