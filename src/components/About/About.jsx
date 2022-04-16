@@ -5,7 +5,7 @@ import {
     AboutWrapper,
     AboutTextContent,
     AboutImage,
-    // ImageWrapper,
+    ImageWrapper,
     ContentWrapper
 } from './AboutEl'
 
@@ -17,9 +17,9 @@ const About = () => {
         <AboutWrapper>
             <ContentWrapper>
                 <AboutTextContent>
-                    {/* <ImageWrapper>
+                    <ImageWrapper>
                         <img src="/images/About.svg" alt="" />
-                    </ImageWrapper> */}
+                    </ImageWrapper>
                     <h5>ABOUT</h5>
                     <h2>Welcome To <br /> the Zombieverse Club</h2>
                     <p>
