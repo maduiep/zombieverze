@@ -1,8 +1,8 @@
 import React from 'react'
-import { FaTimes } from 'react-icons/fa'
 import {
     SidebarContainer, 
     Icon, 
+    CloseIcon, 
     SidebraWrapper,
     SidebarMenu,
     SidebarLink,
@@ -15,8 +15,8 @@ function Sidebar({isOpen, toggle}) {
     }
     return (
         <SidebarContainer isOpen={isOpen}>
-            <Icon onClick={toggle}>
-                <FaTimes style={styles}/>
+            <Icon style={styles} onClick={toggle}>
+                <CloseIcon />
             </Icon>
             <SidebraWrapper>
                 <SidebarMenu>

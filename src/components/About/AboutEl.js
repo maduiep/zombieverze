@@ -19,6 +19,7 @@ export const ContentWrapper = styled.div `
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     @media screen and (max-width: 620px) {
         flex-direction: column;
     }
@@ -37,8 +38,9 @@ export const AboutTextContent = styled.div `
     color: var(--white-color);
     font-family: 'Days One', 'sans-serif';
     position: relative;
-    @media screen and (max-width:1300px) {
-        text-align: center;
+
+    @media screen and (max-width:976px) {
+        flex-direction: column;
     }
     @media screen and (max-width: 620px) {
         margin-top: 10rem;
@@ -56,7 +58,7 @@ export const AboutTextContent = styled.div `
             order: 2;
         } */
         @media screen and (max-width:1300px) {
-            font-size: 1rem;
+            font-size: .8rem;
             font-weight: 300;
             padding-bottom: 0.8rem;
 
@@ -77,8 +79,16 @@ export const AboutTextContent = styled.div `
         padding-bottom: 0.8125rem;
 
         @media screen and (max-width:1300px) {
-            line-height: 51px;
+            line-height: 48px;
             font-size:2rem;
+            font-weight: 300;
+            padding-bottom: 0.8rem;
+
+        }
+
+        @media screen and (max-width:976px) {
+            line-height: 45px;
+            font-size:1.5rem;
             font-weight: 300;
             padding-bottom: 0.8rem;
 
@@ -101,6 +111,14 @@ export const AboutTextContent = styled.div `
         text-transform: uppercase;
         line-height: 25px;
         padding-bottom: 2rem;
+
+        @media screen and (max-width:976px) {
+            line-height: 20px;
+            font-size: 0.8rem;
+            font-weight: 300;
+            padding-bottom: 0.5rem;
+
+        }
 
         @media screen and (max-width:1300px) {
             font-size: 1rem;
@@ -131,11 +149,21 @@ export const AboutImage = styled.div `
     margin-top: 12.9375rem;
     width: 30.566875rem;
     height: 30.455625rem;
+
+    @media screen and (max-width:781px) {
+        width: 22.566875rem;
+        height: 22.455625rem;
+    }
+
     
     img {
         width: inherit;
         height: inherit;
         border-radius: 1rem;
+
+        @media screen and (max-width:976px) {
+        padding-bottom: 3rem; 
+    }
     }
 
     @media screen and (max-width:1300px) {

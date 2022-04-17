@@ -20,7 +20,7 @@ export const TextContainer = styled.div `
     h1 {
         font-size: 4rem;
         font-weight: 400;
-        padding-top: 18rem;
+        padding-top: 15rem;
         font-family: 'Days One', sans-serif;
        
         span {

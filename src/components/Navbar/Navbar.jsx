@@ -25,10 +25,6 @@ function Navbar(props) {
         listStyle: 'none',
        
     }
-    // const toggle = () => {
-    //     // setIsOpen(!isOpen)
-    //     console.log('toggle nav')
-    // }
     return (
         <Nav>
            <NavbarContainer>
