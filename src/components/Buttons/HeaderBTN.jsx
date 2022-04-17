@@ -6,7 +6,7 @@ import {
 
 const HeaderBTN = (props) => {
   return (
-    <BTN>
+    <BTN href={props.link}>
       {props.children}
       <span></span>
       <span></span>
