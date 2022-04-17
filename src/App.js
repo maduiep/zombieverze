@@ -1,3 +1,4 @@
+import React from 'react'
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,12 +15,10 @@ function App() {
       <Router>
         <GlobalStyle />
         <Routes>
-          <Route path="/" element={<App />}>
-            <Route index element={<MainPage />} />
-          </Route>
+          <Route path="/" element={<App />}/>
+          <Route index element={<MainPage />} />
           <Route path="/TermsAndConditions" element={<TermsAndConditions/>}/>
         </Routes>
-
       </Router>
     </div>
   );

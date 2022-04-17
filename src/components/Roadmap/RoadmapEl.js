@@ -218,8 +218,7 @@ export const RoundCard = styled.div `
     width: 6.5rem;
     height: 6.723125rem;
     border-radius: 50%;
-    /* background: #8A9194;
-    opacity: 0.9; */
+    
     background: linear-gradient(90deg, #868F96 0%, #596164 100%);
     box-shadow: inset 19.2116px 19.2116px 80.6887px rgba(255, 255, 255, 0.5);
     @media screen and (max-width: 1200px) {
@@ -231,7 +230,7 @@ export const RoundCard = styled.div `
 
     position: absolute;
     bottom: 16rem;
-    top: -12%;
+    top: -32%;
     left: 25%;
     /* -webkit-box-shadow: -1px 0px 6px 1px rgba(138,145,148,1);
     -moz-box-shadow: -1px 0px 6px 1px rgba(138,145,148,1);

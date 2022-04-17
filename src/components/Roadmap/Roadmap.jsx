@@ -7,19 +7,9 @@ import {
   RoadmapHolder,
   RoadmapCardHolder,
   CardHolder,
-  CardHolder2,
   RoundCard,
-  RoundCard2,
   Card,
-  LineContainer,
-  Circle,
-  Line1,
-  Line2,
-  Line3,
-  Line4,
-  Line5,
-  Line6,
-  Dot,
+  
   RoadmapHolder2
 } from './RoadmapEl'
 import {
@@ -28,14 +18,14 @@ import {
 
 const Roadmap = () => {
   return (
-    <RoadmapContainer>
-        <RoadmapWrapper>
+    <RoadmapContainer id="roadmap">
+        <RoadmapWrapper  data-aos="zoom-in">
           <ImageWrapper>
             <img src="/images/Roadmap.svg" alt="" />
           </ImageWrapper>
           <RoadmapHolder>
             <RoadmapContents>
-              <RoadmapCardHolder>
+              <RoadmapCardHolder  data-aos="fade-left">
                 <RoundCard>
                   <h3>10%</h3>
                 </RoundCard>
@@ -49,7 +39,7 @@ const Roadmap = () => {
                   </Card>
                 </CardHolder>
               </RoadmapCardHolder>
-              <RoadmapCardHolder>
+              <RoadmapCardHolder data-aos="fade-right">
                 <RoundCard>
                   <h3>50%</h3>
                 </RoundCard>
@@ -63,7 +53,7 @@ const Roadmap = () => {
                   </Card>
               </CardHolder>
               </RoadmapCardHolder>
-              <RoadmapCardHolder>
+              <RoadmapCardHolder data-aos="fade-left">
                 <RoundCard>
                   <h3>85%</h3>
                 </RoundCard>
@@ -77,7 +67,7 @@ const Roadmap = () => {
                 </Card>
                 </CardHolder>
               </RoadmapCardHolder>
-              <RoadmapCardHolder>
+              <RoadmapCardHolder data-aos="fade-right">
                 <RoundCard>
                   <h3>100%</h3>
                 </RoundCard>
@@ -95,7 +85,7 @@ const Roadmap = () => {
           </RoadmapHolder>
           <RoadmapHolder2>
             <RoadmapContents>
-            <RoadmapCardHolder>
+            <RoadmapCardHolder data-aos="fade-left">
                 <RoundCard>
                   <h3>25%</h3>
                 </RoundCard>
@@ -108,7 +98,7 @@ const Roadmap = () => {
                 </Card>
                 </CardHolder>
               </RoadmapCardHolder>
-              <RoadmapCardHolder>
+              <RoadmapCardHolder data-aos="fade-right">
                 <RoundCard>
                   <h3>75%</h3>
                 </RoundCard>
@@ -122,7 +112,7 @@ const Roadmap = () => {
                 </Card>
                 </CardHolder>
               </RoadmapCardHolder>
-              <RoadmapCardHolder>
+              <RoadmapCardHolder data-aos="fade-left">
                 <RoundCard>
                   <h3>95%</h3>
                 </RoundCard>

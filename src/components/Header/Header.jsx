@@ -14,7 +14,7 @@ export const Header = (props) => {
   // }
 
   return (
-    <HeaderContainer isOpen={props.isOpen} toggle={props.toggle}>
+    <HeaderContainer id="header" isOpen={props.isOpen} toggle={props.toggle}>
         <Navbar toggle={props.toggle}/>
     </HeaderContainer>
   )

@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { FaTimes } from 'react-icons/fa'
 import { Link as LinkRouter } from 'react-router-dom'
 import { Link as LinkScroll } from 'react-scroll'
 
@@ -19,7 +18,7 @@ export const SidebarContainer = styled.aside `
 `
 
 
-export const CloseIcon = styled(FaTimes)`
+export const CloseIcon = styled.div `
     color: var(--white-color);
 `
 
@@ -31,6 +30,7 @@ export const Icon = styled.div `
     font-size: 2rem;
     cursor: pointer;
     outline: none;
+    color: var(--white-color);
 `
 export const SidebraWrapper = styled.div `
     color: var(--white-color);
@@ -42,14 +42,15 @@ export const SidebarMenu = styled.ul `
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 60px);
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 7rem;
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(8, 40px);
     }
 `
 
-export const SidebarLink = styled(LinkScroll)`
+export const SidebarLink = styled(LinkScroll)
+`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +87,8 @@ export const SidebarBtnWrap = styled.div `
     align-items: center;
 `
 
-export const SidebarRoute = styled(LinkRouter)`
+export const SidebarRoute = styled(LinkRouter)
+`
     border-radius: 50px;
     background: var(--accent-color);
     white-space: nowrap;

@@ -1,34 +1,38 @@
 import React from 'react'
+import { FaTimes } from 'react-icons/fa'
 import {
     SidebarContainer, 
     Icon, 
-    CloseIcon, 
     SidebraWrapper,
     SidebarMenu,
     SidebarLink,
 } from './SidebarEl'
 
 function Sidebar({isOpen, toggle}) {
+
+    const styles = {
+        color: '#ffffff'
+    }
     return (
         <SidebarContainer isOpen={isOpen}>
             <Icon onClick={toggle}>
-                <CloseIcon />
+                <FaTimes style={styles}/>
             </Icon>
             <SidebraWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="home" onClick={toggle}>
+                    <SidebarLink to="about" onClick={toggle}>
                         ABOUT
                     </SidebarLink>
 
-                    <SidebarLink to="about" onClick={toggle}>
+                    <SidebarLink to="roadmap" onClick={toggle}>
                         ROADMAP
                     </SidebarLink>
 
-                    <SidebarLink to="games" onClick={toggle}>
+                    <SidebarLink to="team" onClick={toggle}>
                         TEAM
                     </SidebarLink>
 
-                    <SidebarLink to="nft" onClick={toggle}>
+                    <SidebarLink to="faq" onClick={toggle}>
                         FAQ
                     </SidebarLink>
                 </SidebarMenu>

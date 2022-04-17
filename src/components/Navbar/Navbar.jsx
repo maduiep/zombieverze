@@ -12,6 +12,7 @@ import {
 
 import { FaBars } from 'react-icons/fa'
 import HeaderBTN from '../Buttons/HeaderBTN';
+import { Link } from 'react-router-dom';
 
 function Navbar(props) {
 
@@ -31,10 +32,14 @@ function Navbar(props) {
     return (
         <Nav>
            <NavbarContainer>
-                    <Img className="userList__profile"
-                        src="./images/Logo.svg"
-                        alt="img" 
-                    />
+                    <Link to="/">
+                        <HashLink scrollIntoView smooth to="/">
+                        <Img
+                            src="./images/Logo.svg"
+                            alt="img" 
+                        />
+                        </HashLink>
+                    </Link>
                     <MobileIcon onClick={props.toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -43,7 +48,7 @@ function Navbar(props) {
                    <NavItem>
                         <NavLinks>
                             <HashLink style={styles} scrollIntoView
-                            smooth to="#info">ABOUT</HashLink>
+                            smooth to="#about">ABOUT</HashLink>
                        </NavLinks>
                    </NavItem>
 
@@ -52,7 +57,7 @@ function Navbar(props) {
                         <HashLink 
                         style={styles} 
                         scrollIntoView
-                        smooth to="#about"
+                        smooth to="#roadmap"
                         >
                             ROADMAP
                         </HashLink>
@@ -62,14 +67,14 @@ function Navbar(props) {
                    <NavItem>
                        <NavLinks>
                        <HashLink style={styles} scrollIntoView
-                        smooth to="#games">TEAM</HashLink>
+                        smooth to="#team">TEAM</HashLink>
                        </NavLinks>
                    </NavItem>
 
                    <NavItem>
                        <NavLinks>
                        <HashLink style={styles} scrollIntoView
-                        smooth to="#nft">FAQ</HashLink>
+                        smooth to="#faq">FAQ</HashLink>
                        </NavLinks>
                    </NavItem>
                </NavMenu>

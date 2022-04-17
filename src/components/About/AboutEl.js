@@ -8,7 +8,7 @@ export const AboutContainer = styled.div `
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 `
 
 export const AboutWrapper = styled.div `
@@ -30,9 +30,6 @@ export const ImageWrapper = styled.div `
         
     }
 
-    /* @media screen and (max-width:960px)  {
-        order: 1;
-    } */
 `
 
 export const AboutTextContent = styled.div `

@@ -16,6 +16,26 @@ export const GlobalStyle = createGlobalStyle `
         box-sizing: border-box;
         text-decoration: none;
     }
+
+    @font-face {
+        font-family: "Blanka-Regular";
+        src: url('fonts//Blanka-Regular.woff2') format('woff2'),
+            url('fonts//Blanka-Regular.woff') format('woff'),
+            url('fonts//Blanka-Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-display: swap;
+            font-style: normal;
+    }
+
+    @font-face {
+        font-family: "DaysOne-Regular";
+        src: url('fonts//DaysOne-Regular.woff2') format('woff2'),
+            url('fonts//DaysOne-Regular.woff') format('woff'),
+            url('fonts//DaysOne-Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-display: swap;
+            font-style: normal;
+    }
     
     @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
     @import url('http://fonts.cdnfonts.com/css/blanka');
