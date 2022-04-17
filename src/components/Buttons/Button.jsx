@@ -6,7 +6,7 @@ import {
 
 const Button = (props) => {
   return (
-    <ButtonContainer>
+    <ButtonContainer href={props.link}>
         {props.children}
         <span></span>
         <span></span>

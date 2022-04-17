@@ -1,6 +1,6 @@
 import stylde from 'styled-components'
 
-export const BTN = stylde.button `
+export const BTN = stylde.a `
     @media screen and (max-width: 768px) {
         display: none;
     }

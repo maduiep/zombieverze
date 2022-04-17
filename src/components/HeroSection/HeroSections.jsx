@@ -21,7 +21,7 @@ const HeroSections = () => {
             </h1>
             <p>The end approaches, but the apocalypse is long lived</p>
           </TextWrapper>
-          <Button>MINT</Button>
+          <Button link={'http://mint.zombieverze.club/'}>MINT</Button>
 
           <IconHolder>
           <Icons />
