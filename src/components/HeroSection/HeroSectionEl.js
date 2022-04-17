@@ -41,7 +41,7 @@ export const TextContainer = styled.div `
     @media screen and (max-width:960px) {
         h1 {
         text-align: center;
-        font-size: 2.25rem;
+        font-size: 3.25rem;
         font-weight: 400;
         padding-top: 25rem;
         font-family: 'Days One', sans-serif;
@@ -63,7 +63,8 @@ export const TextContainer = styled.div `
 
     @media screen and (max-width:650px) {
         h1 {
-        font-size: 2rem;
+        text-align: center;
+        font-size: 2.5rem;
         font-weight: 400;
         padding-top: 25rem;
         font-family: 'Days One', sans-serif;
@@ -85,7 +86,8 @@ export const TextContainer = styled.div `
 
     @media screen and (max-width:550px) {
         h1 {
-        font-size: 2rem;
+        text-align: center;
+        font-size: 2.5rem;
         font-weight: 400;
         padding-top: 25rem;
         font-family: 'Days One', sans-serif;
@@ -109,7 +111,8 @@ export const TextContainer = styled.div `
 
     @media screen and (max-width:300px) {
         h1 {
-        font-size: 1.5rem;
+        text-align: center;
+        font-size: 2rem;
         font-weight: 400;
         padding-top: 25rem;
         font-family: 'Days One', sans-serif;

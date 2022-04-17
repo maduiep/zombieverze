@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Img } from './../Navbar/NavbarEl';
 
 export const RoadmapContainer = styled.div `
     width: 100%;
