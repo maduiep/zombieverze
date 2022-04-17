@@ -21,4 +21,12 @@ export const TermsCopy = styled.div `
         font-family: 'Inter', 'sans-serif';
         font-size: 1.125rem;
     }
+    @media screen and (max-width: 620px) {
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        a{
+            margin-bottom: 20px;
+        }
+    }
 `

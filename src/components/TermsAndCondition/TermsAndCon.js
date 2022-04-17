@@ -12,11 +12,16 @@ export const TermsContainer = styled.div `
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 620px) {
+        width: 80%;
+        margin: 0 auto;
+    }
 `
 
 export const TermsContent = styled.div `
     width: 77.5rem;
     height: 155.1875rem;
+    min-height: 155.1875rem;
     background: #45473F;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -57,6 +62,9 @@ export const TermsContent = styled.div `
 
     @media screen and (max-width: 768px) {
         height: 205.1875rem;
+    @media screen and (max-width: 620px) {
+        width: 90%;
+        margin: 0 auto;
     }
 `
 
@@ -70,6 +78,10 @@ export const Header = styled.div `
         padding-left: 5.4375rem;
         padding-top: 3.4375rem;
         padding-bottom: 1.8125rem;
+        @media screen and (max-width: 620px) {
+            padding: 2rem;
+            font-size: 2rem;
+        }
     }
 
     h3 {
@@ -81,6 +93,10 @@ export const Header = styled.div `
         padding-left: 5.4375rem;
         padding-top: 1.4375rem;
         padding-bottom: 1rem;
+        @media screen and (max-width: 620px) {
+            padding: 2rem;
+            font-size: 1rem;
+        }
     }
 `
 export const TermsText = styled.div `
@@ -93,6 +109,10 @@ export const TermsText = styled.div `
         padding-left: 5.4375rem;
         padding-top: 1.4375rem;
         padding-bottom: 1rem;
+        @media screen and (max-width: 620px) {
+            padding: .5rem 2rem;
+            font-size: 1rem;
+        }
     }
 
     p {
@@ -106,10 +126,19 @@ export const TermsText = styled.div `
         padding-bottom: 1rem;
         padding-right: 5rem;
         line-height: 1.5rem;
+        @media screen and (max-width: 620px) {
+
+            padding: .5rem 2rem;
+            font-size: .8rem;
+        }
     }
 `
 
 export const ButtonWrapper = styled.div `
     margin-top: 2rem;
     margin-left: 5.4375rem;
+    @media screen and (max-width: 620px) {
+        margin:0 auto;
+        padding: 0 1.1rem;
+    }
 `

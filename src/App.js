@@ -1,4 +1,10 @@
-import {BrowserRouter as Router} from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import TermsAndConditions from "./components/TermsAndCondition/TermsAndConditions";
+
 import { GlobalStyle } from "./globalStyles";
 import MainPage from "./pages/MainPage";
 
@@ -7,7 +13,13 @@ function App() {
     <div className="App">
       <Router>
         <GlobalStyle />
-        <MainPage />
+        <Routes>
+          <Route path="/" element={<App />}>
+            <Route index element={<MainPage />} />
+          </Route>
+          <Route path="/TermsAndConditions" element={<TermsAndConditions/>}/>
+        </Routes>
+
       </Router>
     </div>
   );

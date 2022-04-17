@@ -5,16 +5,17 @@ import {
     HeaderContainer,
 } from './HeaderEl'
 
-export const Header = () => {
-  const [isOpen, setIsOpen] = useState(false)
+export const Header = (props) => {
+  // const [isOpen, setIsOpen] = useState(false)
 
-  const toggle = () => {
-      setIsOpen(!isOpen)
-  }
+  // const toggle = () => {
+  //     setIsOpen(!isOpen)
+  //     console.log('toggle nav')
+  // }
 
   return (
-    <HeaderContainer isOpen={false} toggle={false}>
-        <Navbar toggle={false}/>
+    <HeaderContainer isOpen={props.isOpen} toggle={props.toggle}>
+        <Navbar toggle={props.toggle}/>
     </HeaderContainer>
   )
 }

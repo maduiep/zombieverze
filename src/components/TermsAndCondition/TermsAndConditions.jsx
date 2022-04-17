@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import AboutBTN from '../Buttons/AboutBTN'
 
 import {
@@ -9,9 +9,25 @@ import {
     ButtonWrapper
 } from './TermsAndCon'
 
+
+
+import { Header as Head } from '../Header/Header'
+import Sidebar from '../Sidebar/Sidebar'
+import { MainPageContainer } from '../../pages/MainPageEl';
+import Footer from '../Footer/Footer';
 const TermsAndConditions = () => {
+
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+    console.log('toggle nav')
+}
   return (
-    <TermsContainer>
+    <MainPageContainer>
+      <Head isOpen={isOpen} toggle={toggle}/>
+      <Sidebar isOpen={isOpen} toggle={toggle}/>
+      <TermsContainer>
       <TermsContent>
         <Header>
           <h1>TERMS & <br /> CONDITIONS</h1>
@@ -155,6 +171,8 @@ const TermsAndConditions = () => {
         </ButtonWrapper>
       </TermsContent>
     </TermsContainer>
+      <Footer/>
+    </MainPageContainer>
   )
 }
 

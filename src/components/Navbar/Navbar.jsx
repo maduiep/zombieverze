@@ -13,7 +13,7 @@ import {
 import { FaBars } from 'react-icons/fa'
 import HeaderBTN from '../Buttons/HeaderBTN';
 
-function Navbar({toggle}) {
+function Navbar(props) {
 
     const styles = {
         color: '#fff',
@@ -24,7 +24,10 @@ function Navbar({toggle}) {
         listStyle: 'none',
        
     }
-
+    // const toggle = () => {
+    //     // setIsOpen(!isOpen)
+    //     console.log('toggle nav')
+    // }
     return (
         <Nav>
            <NavbarContainer>
@@ -32,7 +35,7 @@ function Navbar({toggle}) {
                         src="./images/Logo.svg"
                         alt="img" 
                     />
-                    <MobileIcon onClick={toggle}>
+                    <MobileIcon onClick={props.toggle}>
                         <FaBars />
                     </MobileIcon>
                
@@ -70,7 +73,7 @@ function Navbar({toggle}) {
                        </NavLinks>
                    </NavItem>
                </NavMenu>
-               <HeaderBTN>MINT</HeaderBTN>
+               <HeaderBTN link={'http://mint.zombieverze.club/'}>MINT</HeaderBTN>
            </NavbarContainer>
         </Nav>
     )
