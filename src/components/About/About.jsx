@@ -11,7 +11,7 @@ import {
 
 import AboutBTN from '../Buttons/AboutBTN';
 
-const About = () => {
+const About = (props) => {
   return (
     <AboutContainer id="about">
         <AboutWrapper>
@@ -25,7 +25,9 @@ const About = () => {
                     <p data-aos="fade-left">
                         Zombieverze official NFT mint and launch, <br /> our WL members will be able to buy the pre- <br />sale 30 mins early. We are already in the <br /> early Stages of developing The Zombieverze <br /> Game, Immediately after Mint is sold out, <br /> sneak peaks and In game footage will be <br /> released, Weekend. 
                     </p>
-                    <AboutBTN >Pick your zombie</AboutBTN>
+                    <a href="http://mint.zombieverze.club/">
+                        <AboutBTN>Pick your zombie</AboutBTN>
+                    </a>
                 </AboutTextContent>
                 <AboutImage data-aos="zoom-in">
                     <img src="/images/play.gif" alt=""/>

@@ -10,11 +10,11 @@ const Slider = keyframes `
     }
 
     75% {
-        background-image: url('/images/ZombiePirate.png');
+        background-image: url('/images/road.png');
     }
 
     100% {
-        background-image: url('/images/ZombieMuster.png');
+        background-image: url('/images/human.png');
     }
 
 `

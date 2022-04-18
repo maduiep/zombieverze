@@ -201,7 +201,11 @@ export const ButtonWrapper = styled.div `
 
     @media screen and (max-width: 545px) 
     {
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.8rem;
+        margin-left: 0.8rem
     }
 
     

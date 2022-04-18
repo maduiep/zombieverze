@@ -1,14 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { Nav, NavbarContainer, Img, NavMenu, NavLinks, NavItem } from '../Navbar/NavbarEl'
+// import { Nav, NavbarContainer, Img, NavMenu, NavLinks, NavItem } from '../Navbar/NavbarEl'
 
 import {
     FooterContainer,
     NavHolder,
     TermsCopy,
     IconContainer,
-    Icon
+    Icon,
+    Nav,
+    NavbarContainer,
+    Img,
+    NavMenu,
+    NavLinks,
+    NavItem,
+    Holder
 } from './FooterEl'
 
 const Footer = () => {
@@ -26,10 +33,15 @@ const Footer = () => {
         <NavHolder>
             <Nav>
                 <NavbarContainer>
-                        <Img className="userList__profile"
+                    <Link to="/">
+                        <HashLink scrollIntoView smooth to="/">
+                        <Img
                             src="./images/Logo.svg"
                             alt="img" 
                         />
+                        </HashLink>
+                    </Link>
+                    <Holder>
                     <NavMenu data-aos="fade-in">
                         <NavItem>
                                 <NavLinks>
@@ -81,6 +93,7 @@ const Footer = () => {
                         </a>
                         </Icon>
                     </IconContainer>
+                    </Holder>
                 </NavbarContainer>
             </Nav>
         </NavHolder>

@@ -15,7 +15,7 @@ import { Header as Head } from '../Header/Header'
 import Sidebar from '../Sidebar/Sidebar'
 import { MainPageContainer } from '../../pages/MainPageEl';
 import Footer from '../Footer/Footer';
-const TermsAndConditions = () => {
+const TermsAndConditions = (props) => {
 
   const [isOpen, setIsOpen] = useState(false)
 
@@ -167,7 +167,9 @@ const TermsAndConditions = () => {
         </TermsText>
         
         <ButtonWrapper>
-          <AboutBTN>Pick your zombie</AboutBTN>
+          <a href="http://mint.zombieverze.club/">
+            <AboutBTN>Pick your zombie</AboutBTN>
+          </a>
         </ButtonWrapper>
       </TermsContent>
     </TermsContainer>

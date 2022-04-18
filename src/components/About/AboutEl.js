@@ -178,7 +178,7 @@ export const AboutImage = styled.div `
         border-radius: 1rem;
 
         @media screen and (max-width:976px) {
-        padding-bottom: 3rem; 
+        padding-bottom: 4rem; 
     }
     }
 
@@ -194,8 +194,15 @@ export const AboutImage = styled.div `
         width: 22.566875rem;
         height: 22.455625rem;
     }
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 320.33203125px;
+        order: 2;
+    }
     @media screen and (max-width: 620px) {
-        margin-top: 0rem;
+        margin-bottom: 1rem;
         width: 100%;
         height: 320.33203125px;
         order: 2;
