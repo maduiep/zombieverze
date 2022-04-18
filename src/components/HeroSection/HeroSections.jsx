@@ -29,7 +29,7 @@ const HeroSections = () => {
           </Button>
 
           <IconHolder>
-          <Icons />
+            <Icons />
           </IconHolder>
         </TextContainer>
     </HeroContainer>

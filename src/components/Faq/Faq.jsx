@@ -34,7 +34,10 @@ function Faq() {
                 <ImageWrapper>
                     <img src="/images/faq.svg" alt="" />
                 </ImageWrapper>
-                <FaqText>FAQ</FaqText>
+                <FaqText>
+                    <span></span>
+                    <h5>FAQ</h5>
+                </FaqText>
                 <FaqAccordion>
                     {FaqData.map((item, i) => (
                         <FaqItem data-aos="zoom-in">

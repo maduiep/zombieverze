@@ -19,8 +19,7 @@ export const TermsContainer = styled.div `
 `
 
 export const TermsContent = styled.div `
-    width: 77.5rem;
-    /* height: 155.1875rem; */
+    max-width: 77.5rem;
     min-height: 155.1875rem;
     background: #45473F;
     margin-top: 5rem;
@@ -48,41 +47,7 @@ export const TermsContent = styled.div `
         min-height: 205.1875rem;
     }
 
-    /* @media screen and (max-width: 1150px) {
-        height: 165.1875rem;
-    } */
-
-    /* @media screen and (max-width: 1142px) {
-        height: 170.1875rem;
-    } */
-
-    /* @media screen and (max-width: 978px) {
-        height: 175.1875rem;
-    } */
-
-    /* @media screen and (max-width: 948px) {
-        height: 180.1875rem;
-    } */
-
-    /* @media screen and (max-width: 892px) {
-        height: 185.1875rem;
-    } */
-
-    /* @media screen and (max-width: 855px) {
-        height: 190.1875rem;
-    } */
-
-    /* @media screen and (max-width: 827px) {
-        height: 200.1875rem;
-    } */
-
-    /* @media screen and (max-width: 768px) {
-        height: 205.1875rem;
-    } */
-    /* @media screen and (max-width: 620px) {
-        width: 90%;
-        margin: 0 auto;
-    } */
+    
 `
 
 export const Header = styled.div `
@@ -147,16 +112,6 @@ export const Header = styled.div `
             padding-bottom: 0.8rem;
         
         }
-
-        /* @media screen and (max-width: 768px) {
-            height: 205.1875rem;
-            font-size: 2rem;
-        } */
-
-        /* @media screen and (max-width: 620px) {
-            padding: 2rem;
-            font-size: 1rem;
-        } */
     }
 `
 export const TermsText = styled.div `
@@ -219,7 +174,7 @@ export const TermsText = styled.div `
             font-size: 1rem;
             padding-top: 1rem;
             padding-bottom: 0.8rem;
-            line-height: 1rem;
+            line-height: 1.5rem;
         }
 
         @media screen and (max-width: 769px) {

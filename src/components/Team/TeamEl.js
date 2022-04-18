@@ -19,20 +19,90 @@ export const TeamWrapper = styled.div `
 
 
 `
+export const Heading = styled.div `
+    display: flex;
+
+    @media screen and (max-width:1000px) {
+            font-size: .8rem;
+            font-weight: 300;
+            padding-bottom: 0.8rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        @media screen and (max-width:485px) {
+            font-size:0.8rem;
+            font-weight: 200;
+            padding-bottom: 0.8rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    span {
+        border-left: 6px solid var(--accent-color);
+        height: 1.5rem;
+        padding-left: 0.5rem;
+
+        @media screen and (max-width:485px) {
+            padding-bottom: 0.8rem;
+        }
+        
+    }
+    h5 {
+        font-size: 1rem;
+        font-weight: 400;
+        /* padding-bottom: 1rem; */
+        
+        
+        @media screen and (max-width:1000px) {
+            font-size: .8rem;
+            font-weight: 300;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        @media screen and (max-width:485px) {
+            font-size:0.8rem;
+            font-weight: 200;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+`
 
 export const TeamText = styled.div `
-    margin-top: 12.9375rem; 
+    margin-top: 9.5rem; 
     color: var(--white-color);
     font-family: 'Days One', 'sans-serif';
     @media screen and (max-width:1000px) {
-        margin-top: 12.9375rem;
+        margin-top: 9.5rem;
     }
     h5 {
         font-size:1.25rem;
         font-weight: 400;
         padding-bottom: 1rem;
+        /* border-left: 6px solid var(--accent-color);
+        height: 1.5rem;
+        padding-left: 0.5rem; */
 
         @media screen and (max-width:1000px) {
+            font-size: 1rem;
+            font-weight: 300;
+            padding-bottom: 0.8rem;
+
+        }
+
+        @media screen and (max-width:462px) {
             font-size: 1rem;
             font-weight: 300;
             padding-bottom: 0.8rem;

@@ -8,6 +8,11 @@ export const GlobalStyle = createGlobalStyle `
         --secondary-color: #B98AFA;
         --white-color: #ffffff;
     }
+
+    @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+    @import url('http://fonts.cdnfonts.com/css/blanka');
+    @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
     
     *{
         margin: 0;
@@ -37,10 +42,6 @@ export const GlobalStyle = createGlobalStyle `
             font-style: normal;
     }
     
-    @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
-    @import url('http://fonts.cdnfonts.com/css/blanka');
-    @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
     
     body{
         background: var(--primary-color);

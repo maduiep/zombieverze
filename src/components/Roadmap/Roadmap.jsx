@@ -3,7 +3,7 @@ import {
   RoadmapContainer, 
   RoadmapWrapper, 
   RoadmapContents,
-  ImageWrapper,
+  Heading,
   RoadmapHolder,
   RoadmapCardHolder,
   CardHolder,
@@ -20,9 +20,11 @@ const Roadmap = () => {
   return (
     <RoadmapContainer id="roadmap">
         <RoadmapWrapper  data-aos="zoom-in">
-          <ImageWrapper>
-            <img src="/images/Roadmap.svg" alt="" />
-          </ImageWrapper>
+          <Heading>
+            <span></span>
+            <h5>Roadmap</h5>
+          </Heading>
+          
           <RoadmapHolder>
             <RoadmapContents>
               <RoadmapCardHolder  data-aos="fade-left">

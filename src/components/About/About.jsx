@@ -5,7 +5,7 @@ import {
     AboutWrapper,
     AboutTextContent,
     AboutImage,
-    ImageWrapper,
+    Heading,
     ContentWrapper
 } from './AboutEl'
 
@@ -17,10 +17,10 @@ const About = () => {
         <AboutWrapper>
             <ContentWrapper>
                 <AboutTextContent>
-                    <ImageWrapper data-aos="fade-up">
-                        <img src="/images/About.svg" alt="" />
-                    </ImageWrapper>
-                    <h5 data-aos="fade-down">ABOUT</h5>
+                    <Heading>
+                        <span></span>
+                        <h5 data-aos="fade-down">ABOUT</h5>
+                    </Heading>
                     <h2>Welcome To <br /> the Zombieverse Club</h2>
                     <p data-aos="fade-left">
                         Zombieverze official NFT mint and launch, <br /> our WL members will be able to buy the pre- <br />sale 30 mins early. We are already in the <br /> early Stages of developing The Zombieverze <br /> Game, Immediately after Mint is sold out, <br /> sneak peaks and In game footage will be <br /> released, Weekend. 

@@ -29,4 +29,45 @@ export const TermsCopy = styled.div `
             margin-bottom: 20px;
         }
     }
+
+    @media screen and (max-width:485px) {
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        a{
+            margin-bottom: 10px;
+        }
+    }
+`
+
+export const IconContainer = styled.div `
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        margin-right: 0rem;
+        margin-left: 3rem;
+    }
+`
+export const Icon = styled.div `
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #000;
+    margin-right: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-align: center;
+    }
 `

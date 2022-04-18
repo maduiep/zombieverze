@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Icons from '../Icons/Icons';
 import { Nav, NavbarContainer, Img, NavMenu, NavLinks, NavItem } from '../Navbar/NavbarEl'
 
 import {
     FooterContainer,
     NavHolder,
-    TermsCopy
+    TermsCopy,
+    IconContainer,
+    Icon
 } from './FooterEl'
 
 const Footer = () => {
@@ -63,7 +64,23 @@ const Footer = () => {
                             </NavLinks>
                         </NavItem>
                     </NavMenu>
-                    <Icons />
+                    <IconContainer>
+                        <Icon>
+                        <a href="http://twitter.com/zverze_">
+                            <img src="/images/Twiiter.svg" alt="" />
+                        </a>
+                        </Icon>
+                        <Icon>
+                        <a href="https://discord.gg/eD8q294wa2">
+                            <img src="/images/Sailor.svg" alt="" />
+                        </a>
+                        </Icon>
+                        <Icon>
+                        <a href="https://opensea.io/collection/zombieverze-official">
+                            <img src="/images/Discord.svg" alt="" />
+                        </a>
+                        </Icon>
+                    </IconContainer>
                 </NavbarContainer>
             </Nav>
         </NavHolder>

@@ -11,7 +11,8 @@ import {
     TeamProfile,
     TeamMembersContainer,
     TeamMembersWrapper,
-    TeamMembers
+    TeamMembers,
+    Heading
 } from './TeamEl'
 
 const Team = () => {
@@ -24,8 +25,10 @@ const Team = () => {
         <TeamWrapper>
           <TeamContents>
             <TeamText data-aos="fade-left">
-              <img data-aos="zoom-in" src="/images/our team.png" alt="" style={{width:'300px',}}/>
+            <Heading>
+              <span></span>
               <h5>TEAM</h5>
+            </Heading>
               <h2>Meet Zombieverse <br /> Club Team</h2>
               <p>
                 Fully decentralized team of experts <br /> and enthusiasts

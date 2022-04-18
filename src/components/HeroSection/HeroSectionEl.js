@@ -5,12 +5,19 @@ const Slider = keyframes `
         background-image: url('/images/ZombiePirate.png');
     }
 
+    50% {
+        background-image: url('/images/ZombieMuster.png');
+    }
+
+    75% {
+        background-image: url('/images/ZombiePirate.png');
+    }
+
     100% {
         background-image: url('/images/ZombieMuster.png');
     }
 
 `
-
 
 export const HeroContainer = styled.div `
     width: 100%;
@@ -19,7 +26,7 @@ export const HeroContainer = styled.div `
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: center;
-    animation: ${Slider} 15s ease-in-out infinite;
+    animation: ${Slider} 10s ease-in-out infinite;
 `
 
 export const TextContainer = styled.div `
@@ -32,13 +39,13 @@ export const TextContainer = styled.div `
     h1 {
         font-size: 4rem;
         font-weight: 400;
-        padding-top: 10rem;
-        font-family: 'Days One', ''Days One'';
+        padding-top: 13rem;
+        font-family: 'Days One', sans-serif;
        
         span {
             color: var(--head-color);
             text-transform: uppercase;
-            font-family: 'Blanka', 'Days One';                             
+            font-family: 'Blanka', sans-serif;                             
         }
     }
 
@@ -55,20 +62,20 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 3.25rem;
         font-weight: 400;
-        padding-top: 1.5rem;
-        font-family: 'Days One', 'Days One';
+        padding-top: 5rem;
+        font-family: 'Days One', sans-serif;
        
         span {
             color: var(--head-color);
             text-transform: uppercase;
-            font-family: 'Blanka', 'Days One';                             
+            font-family: 'Blanka', sans-serif;                             
         }
     }
 
         p {
             text-transform: uppercase;
             font-family: 'Days One';
-            padding-top: 1rem;
+            padding-top: 1.25rem;
             font-size: 1rem;
             text-align: center;
         }
@@ -79,13 +86,13 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 2rem;
-        font-family: 'Days One', 'Days One';
+        padding-top: 5rem;
+        font-family: 'Days One', sans-serif;
        
         span {
             color: var(--head-color);
             text-transform: uppercase;
-            font-family: 'Blanka', 'Days One';                             
+            font-family: 'Blanka', sans-serif;                             
         }
     }
 
@@ -103,7 +110,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 2rem;
+        padding-top: 5rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
@@ -128,7 +135,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2rem;
         font-weight: 400;
-        padding-top: 2rem;
+        padding-top: 5rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
@@ -181,5 +188,6 @@ export const Icon = styled.div `
 `
 
 export const IconHolder = styled.div `
-    margin-top: 9.625rem;
+    margin-top: 12.625rem;
+
 `

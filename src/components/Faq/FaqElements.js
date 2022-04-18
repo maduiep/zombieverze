@@ -20,22 +20,34 @@ export const ImageWrapper = styled.div `
     }
 `
 
-export const FaqText = styled.h1 `
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 45px;
-    color: var(--white-color);
-    font-family: 'Days One', 'sans-serif';
+export const FaqText = styled.span `
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5rem;
-    padding-top: 0.8rem;
-
-    @media screen and (max-width: 768px) {
-        font-size: 24px;
-        text-align: center;
+    span {
+        border-left: 6px solid var(--accent-color);
+        height: 1.5rem;
+        padding-left: 0.5rem;
     }
+    h5 {
+        font-size: 1.3rem;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        color: var(--white-color);
+        font-family: 'Days One', sans-serif;
+        
+        @media screen and (max-width:1300px) {
+            font-size: .8rem;
+            font-weight: 300;
+            padding-bottom: 0.8rem;
+
+        }
+
+        @media screen and (max-width:485px) {
+            font-size:0.8rem;
+            font-weight: 200;
+            padding-bottom: 0.8rem;
+        }
+    }
+
 `
 
 export const FaqWrapper = styled.div `
@@ -47,6 +59,7 @@ export const FaqWrapper = styled.div `
 
 export const FaqAccordion = styled.div `
     width: 70rem;
+    margin-top: 2rem;
 
     @media screen and (max-width: 1250px) {
         width: 60rem;

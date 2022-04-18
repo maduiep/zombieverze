@@ -14,6 +14,7 @@ export const RoadmapContainer = styled.div `
 `
 
 export const RoadmapWrapper = styled.div `
+    
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
@@ -23,7 +24,7 @@ export const RoadmapWrapper = styled.div `
 export const RoadmapHolder = styled.div `
     display: flex;
     flex-direction: column;
-    margin-top: 25.375rem;
+    margin-top: 20.375rem;
     @media screen and (max-width: 620px) {
         margin-top: 10rem;
     }
@@ -39,23 +40,42 @@ export const RoadmapHolder2 = styled.div `
         margin-top: 17.375rem;
     }
 `
-export const ImageWrapper = styled.div `
+export const Heading = styled.span `
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center; 
-    position: relative;
-    @media screen and (max-width: 620px) {
-        width: 100%;
-        Img{
-            width: 300px;
-            height: 64px;
+    padding-top: 13rem;
+
+    span {
+        border-left: 6px solid var(--accent-color);
+        height: 1.5rem;
+        padding-left: 0.5rem;
+
+    }
+    h5 {
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Days One', sans-serif;
+        color: var(--white-color);
+        
+        
+        @media screen and (max-width:1300px) {
+            font-size: .8rem;
+            font-weight: 300;
+            padding-bottom: 0.8rem;
+
+        }
+
+        @media screen and (max-width:1030px) {
+            font-size:0.8rem;
+            font-weight: 200;
+            padding-bottom: 0.8rem;
+
         }
     }
-    img {
-        padding-top: 10rem;
-        position: absolute;
-        top: 3px;
-    }
+
 `
 
 export const RoadmapContents = styled.div `
@@ -89,20 +109,13 @@ export const CardHolder = styled.span `
     span {
         border-left: solid 0.25rem #565E63;
         height: 20rem;
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
     @media screen and (max-width: 620px) {
     }
 `
 
 
-export const CardHolder2 = styled.span `
-    span {
-        border-left: solid 0.25rem #565E63;
-        height: 20rem;
-        padding-bottom: 4rem;
-    }
-`
 
 export const Card = styled.div `
     width: 16.125rem;
@@ -180,38 +193,6 @@ export const Card = styled.div `
     }
 `
 
-export const RoundCard2 = styled.div `
-    width: 6.5rem;
-    height: 6.723125rem;
-    border-radius: 50%;
-    background: #8A9194;
-    opacity: 0.9;
-
-    position: absolute;
-    bottom: 16rem;
-    -webkit-box-shadow: -1px 0px 6px 1px rgba(138,145,148,1);
-    -moz-box-shadow: -1px 0px 6px 1px rgba(138,145,148,1);
-    box-shadow: -1px 0px 6px 1px rgba(138,145,148,1);
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 1;
-
-    h3 {
-        font-size: 2rem;
-        font-weight: 400;
-        font-family: 'Poppins', 'sans-serif';
-        color: var(--white-color);
-        opacity: 1;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-`
 
 export const RoundCard = styled.div `
     width: 6.5rem;

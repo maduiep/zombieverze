@@ -25,10 +25,32 @@ export const ContentWrapper = styled.div `
     }
 `
 
-export const ImageWrapper = styled.div `
-    
-    img {
+export const Heading = styled.div `
+    display: flex;
+    span {
+        border-left: 6px solid var(--accent-color);
+        height: 1.5rem;
+        padding-left: 0.5rem;
+    }
+    h5 {
+        font-size: 1rem;
+        font-weight: 400;
+        padding-bottom: 1rem;
         
+        
+        @media screen and (max-width:1300px) {
+            font-size: .8rem;
+            font-weight: 300;
+            padding-bottom: 0.8rem;
+
+        }
+
+        @media screen and (max-width:1030px) {
+            font-size:0.8rem;
+            font-weight: 200;
+            padding-bottom: 0.8rem;
+
+        }
     }
 
 `
@@ -50,27 +72,7 @@ export const AboutTextContent = styled.div `
         flex-direction: column;
         order:1;
     }
-    h5 {
-        font-size: 1rem;
-        font-weight: 400;
-        padding-bottom: 1rem;
-        /* @media screen and (max-width:960px)  {
-            order: 2;
-        } */
-        @media screen and (max-width:1300px) {
-            font-size: .8rem;
-            font-weight: 300;
-            padding-bottom: 0.8rem;
-
-        }
-
-        @media screen and (max-width:1030px) {
-            font-size:0.8rem;
-            font-weight: 200;
-            padding-bottom: 0.8rem;
-
-        }
-    }
+    
 
     h2 {
         line-height: 61px;
