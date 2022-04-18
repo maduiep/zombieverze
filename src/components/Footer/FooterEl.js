@@ -6,6 +6,10 @@ export const FooterContainer = styled.div `
     width: 100%;
     height: 18.0625rem;
     background: #000;
+
+    @media screen and (max-width: 768px) {
+        height: 13.0625rem;
+    }
 `
 
 
@@ -159,12 +163,12 @@ export const Holder = styled(Container)
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        margin-top: 1.8rem;
+        margin-top: 2rem;
     } 
 
 
     @media screen and (max-width: 590px) {
-        margin-top: 1.8rem;
+        margin-top: 2rem;
         flex-direction: column;
         
     } 
