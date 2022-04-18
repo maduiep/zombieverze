@@ -32,7 +32,7 @@ export const TextContainer = styled.div `
     h1 {
         font-size: 4rem;
         font-weight: 400;
-        padding-top: 25rem;
+        padding-top: 15rem;
         font-family: 'Days One', sans-serif;
        
         span {
@@ -55,7 +55,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 3.25rem;
         font-weight: 400;
-        padding-top: 15rem;
+        padding-top: 10rem;
         font-family: 'Days One', sans-serif;
        
         span {
@@ -79,7 +79,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 15rem;
+        padding-top: 10rem;
         font-family: 'Days One', sans-serif;
        
         span {
@@ -103,7 +103,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 15rem;
+        padding-top: 10rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
@@ -128,7 +128,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2rem;
         font-weight: 400;
-        padding-top: 20rem;
+        padding-top: 10rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
@@ -181,5 +181,5 @@ export const Icon = styled.div `
 `
 
 export const IconHolder = styled.div `
-    margin-top: 10.625rem;
+    margin-top: 9.625rem;
 `

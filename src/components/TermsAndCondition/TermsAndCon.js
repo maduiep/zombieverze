@@ -98,12 +98,12 @@ export const Header = styled.div `
 
         @media screen and (max-width: 625px) 
         {
-            padding-left: 3.4375rem;
+            padding-left: 2.rem;
         }
 
         @media screen and (max-width: 1113px) {
             font-size: 2rem;
-            padding-top: 2.4375rem;
+            padding-top: 2rem;
             padding-bottom: 1rem;
         }
 
@@ -132,7 +132,7 @@ export const Header = styled.div `
 
         @media screen and (max-width: 625px) 
         {
-            padding-left: 3.4375rem;
+            padding-left: 2rem;
         }
 
         @media screen and (max-width: 1113px) {
@@ -219,7 +219,7 @@ export const TermsText = styled.div `
             font-size: 1rem;
             padding-top: 1rem;
             padding-bottom: 0.8rem;
-            line-height: 1.5rem;
+            line-height: 1rem;
         }
 
         @media screen and (max-width: 769px) {
