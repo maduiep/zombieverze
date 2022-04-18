@@ -49,31 +49,31 @@ export const FaqAccordion = styled.div `
     width: 72rem;
 
     @media screen and (max-width: 1250px) {
-        width: 65rem;
-    }
-
-    @media screen and (max-width: 1190px) {
         width: 60rem;
     }
 
-    @media screen and (max-width: 1150px) {
-        width: 55rem;
-    }
-
-    @media screen and (max-width: 990px) {
+    @media screen and (max-width: 1190px) {
         width: 50rem;
     }
 
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 1150px) {
         width: 45rem;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 990px) {
         width: 35rem;
     }
 
-    @media screen and (max-width: 620px) {
+    @media screen and (max-width: 960px) {
+        width: 30rem;
+    }
+
+    @media screen and (max-width: 768px) {
         width: 25rem;
+    }
+
+    @media screen and (max-width: 620px) {
+        width: 20rem;
     }
 `
 

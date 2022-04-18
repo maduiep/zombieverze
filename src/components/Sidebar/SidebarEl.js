@@ -25,7 +25,7 @@ export const CloseIcon = styled(FaTimes)
 `
     color: var(--white-color);
     position: absolute;
-    left: 20%;
+    left: 15%;
 `
 
 export const Icon = styled.div `
@@ -51,9 +51,10 @@ export const SidebarMenu = styled.ul `
     grid-template-rows: repeat(8, 60px);
     text-align: center;
     margin-top: 7rem;
+    margin-right: 7rem;
 
     @media screen and (max-width: 480px) {
-        grid-template-rows: repeat(8, 40px);
+        grid-template-rows: repeat(8, 20px);
     }
 `
 
@@ -81,6 +82,7 @@ export const SidebarLink = styled(LinkScroll)
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
 
         &:hover {
         transition: all 0.2s ease-in-out;
