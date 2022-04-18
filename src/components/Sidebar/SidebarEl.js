@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside `
     position: fixed;
     z-index: 1000;
     display: grid;
-    width: 80%;
+    width: 90%;
     height: 70%;
     background: var(--primary-color);
     top: 0;

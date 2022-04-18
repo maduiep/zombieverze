@@ -30,7 +30,7 @@ const TermsAndConditions = () => {
       <TermsContainer>
       <TermsContent>
         <Header>
-          <h1>TERMS & <br /> CONDITIONS</h1>
+          <h1>TERMS & CONDITIONS</h1>
           <h3>ZombieVerze provides it's services as listed below to <br />
             the collectors through the website.
           </h3>

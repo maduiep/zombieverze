@@ -140,9 +140,23 @@ export const AboutTextContent = styled.div `
             padding-bottom: 1.5rem;
             line-height: 23px;
         }
-        /* @media screen and (max-width:960px)  {
-            order: 4;
-        } */
+        @media screen and (max-width:620px)  {
+            text-align: center;
+
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            line-height: 22px;
+            padding-bottom: 1.5rem;
+        }
+
+        @media screen and (max-width:490px)  {
+            text-align: center;
+
+            font-size: 0.5rem;
+            text-transform: uppercase;
+            line-height: 20px;
+            padding-bottom: 1rem;
+        }
     }
 `
 export const AboutImage = styled.div `

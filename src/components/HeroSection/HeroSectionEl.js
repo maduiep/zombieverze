@@ -1,13 +1,25 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const Slider = keyframes `
+    0% {
+        background-image: url('/images/ZombiePirate.png');
+    }
+
+    100% {
+        background-image: url('/images/ZombieMuster.png');
+    }
+
+`
+
 
 export const HeroContainer = styled.div `
     width: 100%;
     height: 45.625rem;
-    background-image: url('/images/ZombiePirate.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: center;
+    animation: ${Slider} 15s ease-in-out infinite;
 `
 
 export const TextContainer = styled.div `

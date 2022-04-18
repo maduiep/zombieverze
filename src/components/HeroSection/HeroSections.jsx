@@ -1,10 +1,11 @@
 import React from 'react'
 
+
 import {
     HeroContainer,
     TextContainer,
     TextWrapper,
-    IconHolder
+    IconHolder,
 } from './HeroSectionEl'
 
 import Button from '../Buttons/Button';
@@ -21,7 +22,8 @@ const HeroSections = () => {
             </h1>
             <p data-aos="fade-left">The end approaches, but the apocalypse is long lived</p>
           </TextWrapper>
-          <Button  
+          <Button 
+ 
             link={'http://mint.zombieverze.club/'}>
               MINT
           </Button>
