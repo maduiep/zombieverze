@@ -45,7 +45,7 @@ export const TextContainer = styled.div `
         span {
             color: var(--head-color);
             text-transform: uppercase;
-            font-family: 'Blanka', sans-serif;                             
+            font-family: 'Blanka' 'Days One';                             
         }
     }
 
