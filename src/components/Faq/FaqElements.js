@@ -46,7 +46,7 @@ export const FaqWrapper = styled.div `
 `
 
 export const FaqAccordion = styled.div `
-    width: 72rem;
+    width: 70rem;
 
     @media screen and (max-width: 1250px) {
         width: 60rem;
@@ -65,15 +65,15 @@ export const FaqAccordion = styled.div `
     }
 
     @media screen and (max-width: 960px) {
-        width: 30rem;
+        width: 28rem;
     }
 
     @media screen and (max-width: 768px) {
-        width: 25rem;
+        width: 23rem;
     }
 
     @media screen and (max-width: 620px) {
-        width: 20rem;
+        width: 19rem;
     }
 `
 
