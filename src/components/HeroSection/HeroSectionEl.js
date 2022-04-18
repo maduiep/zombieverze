@@ -182,4 +182,8 @@ export const Icon = styled.div `
 
 export const IconHolder = styled.div `
     margin-top: 9.625rem;
+
+    @media screen and (max-width: 850px) {
+        margin-top: 4rem;
+    }
 `
