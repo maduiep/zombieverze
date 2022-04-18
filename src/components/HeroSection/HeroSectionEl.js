@@ -55,7 +55,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 3.25rem;
         font-weight: 400;
-        padding-top: 10rem;
+        padding-top: 5rem;
         font-family: 'Days One', sans-serif;
        
         span {
@@ -79,7 +79,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 10rem;
+        padding-top: 5rem;
         font-family: 'Days One', sans-serif;
        
         span {
@@ -103,7 +103,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 10rem;
+        padding-top: 5rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
@@ -128,7 +128,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2rem;
         font-weight: 400;
-        padding-top: 10rem;
+        padding-top: 5rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
