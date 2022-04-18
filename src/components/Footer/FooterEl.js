@@ -14,7 +14,7 @@ export const FooterContainer = styled.div `
 
 
 export const NavHolder = styled.div `
-    margin-top: 3.75rem;
+    margin-top: 4.75rem;
 `
 
 export const TermsCopy = styled.div `

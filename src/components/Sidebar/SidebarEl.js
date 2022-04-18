@@ -9,7 +9,7 @@ export const SidebarContainer = styled.aside `
     z-index: 1000;
     display: grid;
     width: 90%;
-    height: 70%;
+    height: 50%;
     background: var(--primary-color);
     top: 0;
     left: 20%;
@@ -25,7 +25,7 @@ export const CloseIcon = styled(FaTimes)
 `
     color: var(--white-color);
     position: absolute;
-    left: 15%;
+    left: 14%;
 `
 
 export const Icon = styled.div `
@@ -51,7 +51,7 @@ export const SidebarMenu = styled.ul `
     grid-template-rows: repeat(8, 60px);
     text-align: center;
     margin-top: 7rem;
-    margin-right: 0rem;
+    margin-right: 5rem;
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(8, 60px);
