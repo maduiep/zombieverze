@@ -86,12 +86,12 @@ export const TextContainer = styled.div `
         padding-bottom: 2rem;
     }
 
-    @media screen and (max-width:960px) {
+    @media screen and (max-width:620px) {
         h1 {
         text-align: center;
         font-size: 3.25rem;
         font-weight: 400;
-        padding-top: 5rem;
+        padding-top: 10rem;
         font-family: 'Days One', sans-serif;
        
         span {
@@ -104,18 +104,18 @@ export const TextContainer = styled.div `
         p {
             text-transform: uppercase;
             font-family: 'Days One';
-            padding-top: 1.25rem;
+            padding-top: 1.5rem;
             font-size: 1rem;
             text-align: center;
         }
     }
 
-    @media screen and (max-width:650px) {
+    @media screen and (max-width:450px) {
         h1 {
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 5rem;
+        padding-top: 10rem;
         font-family: 'Days One', sans-serif;
        
         span {
@@ -128,18 +128,18 @@ export const TextContainer = styled.div `
         p {
             text-transform: uppercase;
             font-family: 'Days One';
-            padding-top: 1rem;
+            padding-top: 1.5rem;
             font-size: 0.8rem;
             text-align: center;
         }
     }
 
-    @media screen and (max-width:550px) {
+    @media screen and (max-width:620px) {
         h1 {
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 5rem;
+        padding-top: 10rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
@@ -153,18 +153,18 @@ export const TextContainer = styled.div `
         p {
             text-transform: uppercase;
             font-family: 'Days One';
-            padding-top: 1rem;
+            padding-top: 1.5rem;
             font-size: 0.8rem;
             text-align: center;
         }
     }
 
-    @media screen and (max-width:300px) {
+    @media screen and (max-width:350px) {
         h1 {
         text-align: center;
         font-size: 2rem;
         font-weight: 400;
-        padding-top: 5rem;
+        padding-top: 10rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
@@ -178,7 +178,7 @@ export const TextContainer = styled.div `
         p {
             text-transform: uppercase;
             font-family: 'Days One';
-            padding-top: 1rem;
+            padding-top: 1.5rem;
             font-size: 0.5rem;
             text-align: center;
         }
@@ -213,6 +213,12 @@ export const Icon = styled.div `
         align-items: center;
         cursor: pointer;
         text-align: center;
+    }
+`
+
+export const BTNWrapper = styled.div `
+    @media screen and (max-width:620px) {
+        margin-top: 3rem;
     }
 `
 

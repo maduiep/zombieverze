@@ -6,6 +6,7 @@ import {
     TextContainer,
     TextWrapper,
     IconHolder,
+    BTNWrapper
 } from './HeroSectionEl'
 
 import Button from '../Buttons/Button';
@@ -22,11 +23,12 @@ const HeroSections = () => {
             </h1>
             <p data-aos="fade-left">The end approaches, but the apocalypse is long lived</p>
           </TextWrapper>
-          <Button 
-            link={'http://mint.zombieverze.club/'}>
-              MINT
-          </Button>
-
+           <BTNWrapper data-aos="fade-in"> 
+           <Button 
+              link={'http://mint.zombieverze.club/'}>
+                MINT
+            </Button>
+           </BTNWrapper>
           <IconHolder>
             <Icons />
           </IconHolder>
