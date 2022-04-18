@@ -65,7 +65,7 @@ export const AboutTextContent = styled.div `
         flex-direction: column;
     }
     @media screen and (max-width: 620px) {
-        margin-top: 10rem;
+        margin-top: 7rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -103,9 +103,25 @@ export const AboutTextContent = styled.div `
             padding-bottom: 0.8rem;
 
         }
-        /* @media screen and (max-width:960px)  {
-            order: 3;
-        } */
+        @media screen and (max-width:768px)  {
+            line-height: 41px;
+            font-size:1.5;
+            font-weight: 200;
+            padding-bottom: 0.8rem;
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        @media screen and (max-width:620px)  {
+            line-height: 41px;
+            font-size:1.5;
+            font-weight: 200;
+            padding-bottom: 0.8rem;
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
     }
 
     p {
@@ -125,29 +141,39 @@ export const AboutTextContent = styled.div `
         @media screen and (max-width:1300px) {
             font-size: 1rem;
             font-weight: 300;
-            padding-bottom: 1.5rem;
+            padding-bottom: 1rem;
             line-height: 25px;
         }
 
         @media screen and (max-width:1150px) {
             font-size: 0.8rem;
             font-weight: 300;
-            padding-bottom: 1.5rem;
+            padding-bottom: 1rem;
             line-height: 25px;
         }
 
         @media screen and (max-width:1030px) {
+
             font-size: 0.5rem;
             font-weight: 200;
-            padding-bottom: 1.5rem;
+            padding-bottom: 1rem;
             line-height: 23px;
+        }
+
+        @media screen and (max-width:768px)  {
+
+            text-align: center;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            line-height: 20px;
+            padding-bottom: 1.5rem;
         }
         @media screen and (max-width:620px)  {
             text-align: center;
 
             font-size: 0.8rem;
             text-transform: uppercase;
-            line-height: 22px;
+            line-height: 20px;
             padding-bottom: 1.5rem;
         }
 
@@ -178,7 +204,7 @@ export const AboutImage = styled.div `
         border-radius: 1rem;
 
         @media screen and (max-width:976px) {
-        padding-bottom: 4rem; 
+        /* padding-bottom: 4rem;  */
     }
     }
 
@@ -196,15 +222,17 @@ export const AboutImage = styled.div `
     }
 
     @media screen and (max-width: 768px) {
+        margin-top: 0rem;
         margin-bottom: 1rem;
-        width: 100%;
-        height: 320.33203125px;
+        width: 19.566875rem;
+        height: 19.455625rem;
         order: 2;
     }
     @media screen and (max-width: 620px) {
+        margin-top: 0rem;
         margin-bottom: 1rem;
-        width: 100%;
-        height: 320.33203125px;
+        width: 19.566875rem;
+        height: 19.455625rem;
         order: 2;
     }
 `
