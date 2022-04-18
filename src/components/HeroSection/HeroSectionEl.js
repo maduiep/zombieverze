@@ -32,13 +32,13 @@ export const TextContainer = styled.div `
     h1 {
         font-size: 4rem;
         font-weight: 400;
-        padding-top: 15rem;
-        font-family: 'Days One', sans-serif;
+        padding-top: 10rem;
+        font-family: 'Days One', ''Days One'';
        
         span {
             color: var(--head-color);
             text-transform: uppercase;
-            font-family: 'Blanka', sans-serif;                             
+            font-family: 'Blanka', 'Days One';                             
         }
     }
 
@@ -55,13 +55,13 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 3.25rem;
         font-weight: 400;
-        padding-top: 5rem;
-        font-family: 'Days One', sans-serif;
+        padding-top: 2rem;
+        font-family: 'Days One', 'Days One';
        
         span {
             color: var(--head-color);
             text-transform: uppercase;
-            font-family: 'Blanka', sans-serif;                             
+            font-family: 'Blanka', 'Days One';                             
         }
     }
 
@@ -79,13 +79,13 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 5rem;
-        font-family: 'Days One', sans-serif;
+        padding-top: 2rem;
+        font-family: 'Days One', 'Days One';
        
         span {
             color: var(--head-color);
             text-transform: uppercase;
-            font-family: 'Blanka', sans-serif;                             
+            font-family: 'Blanka', 'Days One';                             
         }
     }
 
@@ -103,7 +103,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2.5rem;
         font-weight: 400;
-        padding-top: 5rem;
+        padding-top: 2rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
@@ -128,7 +128,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 2rem;
         font-weight: 400;
-        padding-top: 5rem;
+        padding-top: 2rem;
         font-family: 'Days One', sans-serif;
         text-align: center;
        
