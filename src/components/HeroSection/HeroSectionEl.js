@@ -55,7 +55,7 @@ export const TextContainer = styled.div `
         text-align: center;
         font-size: 3.25rem;
         font-weight: 400;
-        padding-top: 2rem;
+        padding-top: 1.5rem;
         font-family: 'Days One', 'Days One';
        
         span {
@@ -68,7 +68,7 @@ export const TextContainer = styled.div `
         p {
             text-transform: uppercase;
             font-family: 'Days One';
-            padding-top: 1.25rem;
+            padding-top: 1rem;
             font-size: 1rem;
             text-align: center;
         }
@@ -182,8 +182,4 @@ export const Icon = styled.div `
 
 export const IconHolder = styled.div `
     margin-top: 9.625rem;
-
-    @media screen and (max-width: 850px) {
-        margin-top: 4rem;
-    }
 `
