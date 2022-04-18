@@ -19,6 +19,25 @@ const Slider = keyframes `
 
 `
 
+const SliderMobile = keyframes `
+    0% {
+        background-image: url('/images/ZombieMobile.png');
+    }
+
+    50% {
+        background-image: url('/images/MusterMobile.png');
+    }
+
+    75% {
+        background-image: url('/images/Cyborg.png');
+    }
+
+    100% {
+        background-image: url('/images/humanMobile.png');
+    }
+
+`
+
 export const HeroContainer = styled.div `
     width: 100%;
     min-height: 45.625rem;
@@ -27,6 +46,16 @@ export const HeroContainer = styled.div `
     background-origin: content-box;
     background-position: center;
     animation: ${Slider} 10s ease-in-out infinite;
+
+    @media screen and (max-width:620px) {
+        width: 100%;
+        min-height: 45.625rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-position: center;
+        animation: ${SliderMobile} 10s ease-in-out infinite;
+    }
 `
 
 export const TextContainer = styled.div `

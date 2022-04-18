@@ -23,7 +23,6 @@ const HeroSections = () => {
             <p data-aos="fade-left">The end approaches, but the apocalypse is long lived</p>
           </TextWrapper>
           <Button 
- 
             link={'http://mint.zombieverze.club/'}>
               MINT
           </Button>
