@@ -159,12 +159,12 @@ export const Holder = styled(Container)
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        margin-top: 1.5rem;
+        margin-top: 1.8rem;
     } 
 
 
     @media screen and (max-width: 590px) {
-        margin-top: 1.5rem;
+        margin-top: 1.8rem;
         flex-direction: column;
         
     } 
