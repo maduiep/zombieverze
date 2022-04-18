@@ -209,11 +209,11 @@ export const NavItem = styled.li `
     font-family: "Days One", sans-serif;
 
     @media screen and (max-width: 862px) {
-        font-size: 0.rem;
+        font-size: 0.5rem;
     } 
 
     @media screen and (max-width: 768px) {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 
     &:hover {
