@@ -8,13 +8,18 @@ export const FooterContainer = styled.div `
     background: #000;
 
     @media screen and (max-width: 768px) {
-        height: 13.0625rem;
+        height: 10.0625rem;
+    }
+
+    @media screen and (max-width: 620px) {
+        height: 10.0625rem;
     }
 `
 
 
 export const NavHolder = styled.div `
-    margin-top: 4.75rem;
+    margin-top: 3.75rem;
+
 `
 
 export const TermsCopy = styled.div `
