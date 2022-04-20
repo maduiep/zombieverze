@@ -11,12 +11,12 @@ const Icons = () => {
           </a>
         </Icon>
         <Icon>
-          <a href="https://discord.gg/eD8q294wa2">
+          <a href="https://opensea.io/collection/zombieverze-official">
             <img src="/images/Sailor.svg" alt="" />
           </a>
         </Icon>
         <Icon>
-          <a href="https://opensea.io/collection/zombieverze-official">
+          <a href="https://discord.gg/eD8q294wa2">
             <img src="/images/Discord.svg" alt="" />
           </a>
         </Icon>
