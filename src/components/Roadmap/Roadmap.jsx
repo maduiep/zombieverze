@@ -8,9 +8,7 @@ import {
   RoadmapCardHolder,
   CardHolder,
   RoundCard,
-  Card,
-  
-  RoadmapHolder2
+  Card
 } from './RoadmapEl'
 import {
 
@@ -36,7 +34,7 @@ const Roadmap = () => {
                   <Card>
                     <h2>Launch</h2>
                     <p>
-                      Launch the NFT, Initial <br /> Mint has been officially <br />paused and will<br /> relaunch soon
+                      Launch the NFT, <br /> Mint is Live Now
                     </p>
                   </Card>
                 </CardHolder>
