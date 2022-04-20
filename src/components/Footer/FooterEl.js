@@ -43,10 +43,12 @@ export const TermsCopy = styled.div `
 
         @media screen and (max-width: 768px) {
             padding-top: 0.8rem;
+            padding-bottom: 1rem;
         }
 
         @media screen and (max-width: 620px) {
             padding-top: 0.8rem;
+            padding-bottom: 1rem;
             }
         }
         @media screen and (max-width: 620px) {
